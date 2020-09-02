@@ -1,0 +1,14 @@
+javafx:
+  title: 语音识别
+  stage:
+    resizable: false
+baidu:
+  aip:
+#    apiKey: TxzTadwR0v0mmgGbxmsB7zIA
+#    secretKey: corx1AFw1YE18TzLDl3G3Fqh2AzK0sgT
+      apiKey: DYyLooNuncwOvktLMVMHauPc
+      secretKey: 5ZeZKf0x0ch8B0tVgEYKyNl9Z9fdXftN
+      apiUrl: https://vop.baidu.com/pro_api
+      tokenUrl: https://openapi.baidu.com/oauth/2.0/token
+logging:
+  file: logs/vop.log

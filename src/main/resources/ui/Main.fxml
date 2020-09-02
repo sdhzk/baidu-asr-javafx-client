@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1" fx:controller="io.starskyoio.asr.controller.MainContorller">
+   <children>
+      <Button fx:id="inputBtn" layoutX="188.0" layoutY="23.0" mnemonicParsing="false" onAction="#selectInputBtnClick" prefHeight="34.0" prefWidth="237.0" text="设置导入文件夹" />
+      <Label fx:id="inputLabel" layoutX="188.0" layoutY="70.0" prefHeight="15.0" prefWidth="237.0" text="未设置导入文件夹"/>
+      <Button fx:id="outputBtn" layoutX="188.0" layoutY="98.0" mnemonicParsing="false" onAction="#selectOuputBtnClick" prefHeight="34.0" prefWidth="237.0" text="设置导出路径" />
+      <Label fx:id="outputLabel" layoutX="188.0" layoutY="142.0" prefHeight="15.0" prefWidth="237.0" text="未设置导出文件夹"/>
+      <Button fx:id="startBtn" layoutX="188.0" layoutY="172.0" mnemonicParsing="false" onAction="#startBtnClick" prefHeight="34.0" prefWidth="237.0" text="开始识别" />
+      <ProgressBar fx:id="progressBar" layoutX="188.0" layoutY="245.0" prefHeight="18.0" prefWidth="237.0" progress="0.0" visible="false" />
+      <Label fx:id="msgLabel" layoutX="188.0" layoutY="224.0" prefHeight="15.0" prefWidth="237.0" text="提示" visible="false"/>
+   </children>
+</Pane>
